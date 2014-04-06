@@ -1,0 +1,2 @@
+serviceClass: fr.mariejeanne.ledressing.client.GreetingService
+path: 45C7CBA6239C38574EFEB030FE7C05B3.gwt.rpc

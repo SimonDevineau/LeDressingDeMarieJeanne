@@ -1,0 +1,162 @@
+/* Colors */
+/* grey:#777 */
+/* lin: E5C9A7 */
+/* orange: EEAC5C */
+@font-face {
+	font-family: Josefin-Sans;
+	src: url(../fonts/Josefin-Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: sail;
+	src: url(../fonts/sail/Sail-Regular.otf);
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #E5C9A7;
+	color: #777;
+	height: 100%;
+	font-family: Josefin-Sans;
+}
+
+.josefin-sans {
+	font-family: Josefin-Sans;
+}
+
+.sail {
+	font-family: sail;
+}
+
+.bs-docs-sidebar a {
+	color: #EEAC5C;
+	font-size: 16px;
+
+	/* 	border: solid thin #777; */
+}
+
+.link-sidebar :hover {
+	background-color: #777 !important;
+}
+/* Css for the navbar */
+#orange-navbar {
+	background-color: #EEAC5C;
+	min-height: 110px;
+	font-size: 22px;
+}
+
+#logo-navbar {
+	height: 100px;
+	max-height: 100px;
+}
+
+#navbar-main {
+	margin-top: 30px;
+}
+
+@media ( max-width : 768px) {
+	#navbar-main {
+		margin-top: 60px;
+	}
+}
+
+.navbar-brand {
+	padding-top: 0px;
+}
+
+@media ( min-width : 768px) {
+	.navbar-nav.navbar-right:last-child {
+		margin-right: -55px;
+	}
+}
+
+/* Footer  */
+.share-section {
+	margin-top: 3%;
+	text-align: center;
+}
+
+.share-section img {
+	height: 40px;
+}
+
+#footer {
+	bottom: 0;
+	margin-bottom: 10px;
+	width: 100%;
+}
+/* Temp modification */
+/* @media ( min-height : 985px) { */
+/* 	#footer { */
+/* 		position: fixed; */
+/* 	} */
+/* } */
+/* Home page  */
+#main-title {
+	margin-bottom: 2%;
+}
+
+.welcome-message {
+	text-align: center;
+	color: #EEAC5C;
+	/* 	color: #FDA438; */
+}
+
+/* Collection page  */
+#items-list-container {
+	margin-top: 2%;
+}
+
+/* Dressing page */
+.depot-process {
+	list-style: none;
+}
+
+.depot-process li {
+	margin-bottom: 15px;
+}
+
+.depot-process img {
+	width: 100%;
+	margin-right: 20px;
+}
+
+.depot-process .img-right {
+	float: right;
+	margin-left: 20px;
+}
+
+.depot-process p {
+	display: inline;
+}
+
+.text-toped {
+	top: 30px;
+}
+/* This parent can be any width and height */
+.block {
+	
+}
+
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.video-container {
+	margin-bottom: 3%;
+}

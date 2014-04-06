@@ -1,0 +1,3 @@
+# Module ledressingdemj
+# RPC service class, partial path of RPC policy file
+fr.mariejeanne.ledressing.client.GreetingService, 45C7CBA6239C38574EFEB030FE7C05B3.gwt.rpc
