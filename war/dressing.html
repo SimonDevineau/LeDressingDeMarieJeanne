@@ -76,43 +76,59 @@
 		</div>
 	</div>
 	<!-- 	End of the navbar section -->
-	<div class="container bs-doc-container" id="top">
+	<div class="container bs-doc-container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-sm-3 col-md-3">
 
-				<div class="bs-docs-sidebar hidden-print affix" role="complementary">
+				<div class="bs-docs-sidebar hidden-print affix" role="complementary"
+					id="dressing-sidenavbar">
 					<ul class="nav bs-docs-sidenav">
 
 						<li><a href="#presentation" class="link-sidebar">Présentation</a></li>
-						<li><a href="#visite-guidee">Visite Guidée</a></li>
-						<li><a href="#depot-vetements">Dépôt de vêtements</a></li>
-						<li><a class="back-to-top" href="#top"> Back to top </a></li>
+						<li><a href="#visite-guidee" class="link-sidebar">Visite Guidée</a></li>
+						<li><a href="#depot-vetements" class="link-sidebar">Dépôt de vêtements</a></li>
+						<li><a class="back-to-top link-sidebar" href="#top"> Haut de page</a></li>
 
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-9">
-				<div  id="presentation">
+			<div class="col-sm-9 col-md-9">
+				<div id="presentation">
 
 					<h1 class="page-header">Un Dressing pas comme les autres</h1>
 
-			
-		<p>Lorem ipsum dolor sit amet, no usu tale quidam mnesarchum,
-						et minim pertinax convenire vel. Illum tation forensibus cum at.
-						Sea cu phaedrum deseruisse, intellegat comprehensam an duo. Per in
-						ridens fabellas hendrerit, alterum saperet mei eu, omittam
-						constituto eu mel. His no malis consul periculis. Quas adipiscing
-						delicatissimi mel in, debitis veritus est at. Per iudico libris
-						nonumes ne. Te odio dicant persius vel. Noster noluisse tincidunt
-						mel at. Ei eum velit inciderint, accumsan vulputate ea vel.</p>
+
+					<p>Commerçante en tant qu' esthéticienne pendant plus de 25
+						ans, j'ai arrêté d'exercer il y a maintenant 4 ans. Pendant ces 25
+						ans, je me suis épanouie à travers mon activité, notamment grâce
+						aux personnes que j'ai pu rencontrer et aux relations que j'ai pu
+						entretenir avec elles. J'ai toujours exercé mon métier dans le but
+						de permettre aux femmes de se sentir mieux dans leur peau.</p>
+					<p>Après avoir cessé cette activité, j'ai commencé à passer
+						plus de temps dans les brocantes, vide-greniers et dépôts-ventes.
+						La plupart des établissements que je côtoie sont, à mon goût, trop
+						diversifiés. Certes il est possible d'y trouver un grand nombre
+						d'articles en tout genre, mais, selon moi, il y est difficile d'y
+						trouver la perle rare.</p>
+					<p>Ainsi j'ai eu l'idée de monter mon propre dépôt-vente. Ce
+						dernier me permettra de retrouver cette relation client et de
+						continuer à travailler pour le bien-être des femmes. J'aimerais
+						que ce dressing, en plus d'être un lieu d'échanges et de
+						bien-être, soit un lieu où les femmes puissent trouver des
+						vêtements et accessoires à leur goût pour un petit budget.</p>
+					<p>Pour résumer, vous trouverez dans ce dressing des vêtements,
+						chaussures, chapeaux, bijoux du quotidien avec une tendance vers
+						des sélections de grandes marques.</p>
+
 				</div>
-				<div  id="visite-guidee">
+				<!-- 				Fin de la présentation -->
+				<div id="visite-guidee">
 					<h1 class="page-header">Une petite visite guidée</h1>
 				</div>
 
 				<div class="container-fluid video-container">
 
-					<video class="col-xs-6 col-md-6 col-xs-offset-3 col-md-offset-3"
+					<video class="col-xs-10 col-md-10 col-xs-offset-1 col-md-offset-1"
 						controls>
 
 						<source src="img/test.mov">
@@ -120,148 +136,193 @@
 					</video>
 				</div>
 
-				<div  id="depot-vetements">
-					<h1 class="page-header">Venez déposer vos vêtements !!</h1>
+				<!-- Fin de la visite guidée -->
+				<div id="depot-vetements">
+					<h1 class="page-header">Comment ça marche ?</h1>
 				</div>
-				<ul class="depot-process">
-					<li>
-						<div class="container-fluid">
-							<div class="row block">
-								<div class="col-xs-2 col-md-2">
-									<img src="img/logo_fond_orange.png" alt="..."
-										class="img-circle ">
-								</div>
-								<div class="col-xs-10 col-md-10 centered">
-									<h2>Récoltez vos vêtements.</h2>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-								</div>
 
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading panel-heading-border-bottom"
+							id="panel-heading-dressing-1">
+							<h2 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion"
+									href="#collapseOne"> Déposez vos vêtements</a>
+							</h2>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse">
+							<div class="panel-body panel-body-dressing" id="panel-body-dressing-1">
+								<ul class="depot-process">
+									<li>
+										<div class="container-fluid">
+											<div class="row block">
+												<div class="col-xs-2 col-md-2">
+													<img src="img/logo_fond_orange.png" alt="..."
+														class="img-circle ">
+												</div>
+												<div class="col-xs-10 col-md-10 centered">
+													<h2>Récoltez vos vêtements.</h2>
+													Lorem Ipsum is simply dummy text of the printing and
+													typesetting industry. Lorem Ipsum has been the industry's
+													standard dummy text ever since the 1500s, when an unknown
+													printer took a galley of type and scrambled it to make a
+													type specimen book. It has survived not only five
+													centuries, but also the leap into electronic typesetting,
+													remaining essentially unchanged. It was popularised in the
+													1960s with
+												</div>
+
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="container-fluid">
+											<div class="row block">
+												<div class="col-xs-10 col-md-10 centered">
+													<h2>Prenez Rendez-Vous.</h2>
+													Lorem Ipsum is simply dummy text of the printing and
+													typesetting industry. Lorem Ipsum has been the industry's
+													standard dummy text ever since the 1500s, when an unknown
+													printer took a galley of type and scrambled it to make a
+													type specimen book. It has survived not only five
+													centuries, but also the leap into electronic typesetting,
+													remaining essentially unchanged. It was popularised in the
+													1960s with
+												</div>
+												<div class="col-xs-2 col-md-2">
+													<img src="img/logo_fond_orange.png" alt="..."
+														class="img-circle ">
+												</div>
+
+
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="container-fluid">
+											<div class="row block">
+												<div class="col-xs-2 col-md-2">
+													<img src="img/logo_fond_orange.png" alt="..."
+														class="img-circle ">
+												</div>
+												<div class="col-xs-10 col-md-10 centered">
+													<h2>Sélection des vêtements</h2>
+													Lorem Ipsum is simply dummy text of the printing and
+													typesetting industry. Lorem Ipsum has been the industry's
+													standard dummy text ever since the 1500s, when an unknown
+													printer took a galley of type and scrambled it to make a
+													type specimen book. It has survived not only five
+													centuries, but also the leap into electronic typesetting,
+													remaining essentially unchanged. It was popularised in the
+													1960s with
+												</div>
+
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="container-fluid">
+											<div class="row block">
+												<div class="col-xs-2 col-md-2">
+													<img src="img/logo_fond_orange.png" alt="..."
+														class="img-circle ">
+												</div>
+												<div class="col-xs-10 col-md-10 centered">
+													<h2>Sognature du contrat</h2>
+
+													Lorem Ipsum is simply dummy text of the printing and
+													typesetting industry. Lorem Ipsum has been the industry's
+													standard dummy text ever since the 1500s, when an unknown
+													printer took a galley of type and scrambled it to make a
+													type specimen book. It has survived not only five
+													centuries, but also the leap into electronic typesetting,
+													remaining essentially unchanged. It was popularised in the
+													1960s with
+												</div>
+
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="container-fluid">
+											<div class="row block">
+												<div class="col-xs-2 col-md-2">
+													<img src="img/logo_fond_orange.png" alt="..."
+														class="img-circle ">
+												</div>
+												<div class="col-xs-10 col-md-10 centered">
+													<h2>Vente des vêtements</h2>
+
+													Lorem Ipsum is simply dummy text of the printing and
+													typesetting industry. Lorem Ipsum has been the industry's
+													standard dummy text ever since the 1500s, when an unknown
+													printer took a galley of type and scrambled it to make a
+													type specimen book. It has survived not only five
+													centuries, but also the leap into electronic typesetting,
+													remaining essentially unchanged. It was popularised in the
+													1960s with
+												</div>
+
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="container-fluid">
+											<div class="row block">
+												<div class="col-xs-2 col-md-2">
+													<img src="img/logo_fond_orange.png" alt="..."
+														class="img-circle ">
+												</div>
+												<div class="col-xs-10 col-md-10 centered">
+													<h2>Cloture du contrat</h2>
+
+													Lorem Ipsum is simply dummy text of the printing and
+													typesetting industry. Lorem Ipsum has been the industry's
+													standard dummy text ever since the 1500s, when an unknown
+													printer took a galley of type and scrambled it to make a
+													type specimen book. It has survived not only five
+													centuries, but also the leap into electronic typesetting,
+													remaining essentially unchanged. It was popularised in the
+													1960s with
+												</div>
+
+											</div>
+										</div>
+									</li>
+
+
+								</ul>
 							</div>
 						</div>
-					</li>
-					<li>
-						<div class="container-fluid">
-							<div class="row block">
-								<div class="col-xs-10 col-md-10 centered">
-									<h2>Prenez Rendez-Vous.</h2>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-								</div>
-								<div class="col-xs-2 col-md-2">
-									<img src="img/logo_fond_orange.png" alt="..."
-										class="img-circle ">
-								</div>
-
-
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion"
+										href="#collapseTwo"> Acheter un article ?</a>
+								</h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse">
+								<div class="panel-body panel-body-dressing">Anim pariatur
+									cliche reprehenderit, enim eiusmod high life accusamus terry
+									richardson ad squid. 3 wolf moon officia aute, non cupidatat
+									skateboard dolor brunch. Food truck quinoa nesciunt laborum
+									eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on
+									it squid single-origin coffee nulla assumenda shoreditch et.
+									Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+									cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+									vice lomo. Leggings occaecat craft beer farm-to-table, raw
+									denim aesthetic synth nesciunt you probably haven't heard of
+									them accusamus labore sustainable VHS.</div>
 							</div>
 						</div>
-					</li>
-					<li>
-						<div class="container-fluid">
-							<div class="row block">
-								<div class="col-xs-2 col-md-2">
-									<img src="img/logo_fond_orange.png" alt="..."
-										class="img-circle ">
-								</div>
-								<div class="col-xs-10 col-md-10 centered">
-									<h2>Sélection des vêtements</h2>
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-								</div>
-
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="container-fluid">
-							<div class="row block">
-								<div class="col-xs-2 col-md-2">
-									<img src="img/logo_fond_orange.png" alt="..."
-										class="img-circle ">
-								</div>
-								<div class="col-xs-10 col-md-10 centered">
-									<h2>Sognature du contrat</h2>
-
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-								</div>
-
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="container-fluid">
-							<div class="row block">
-								<div class="col-xs-2 col-md-2">
-									<img src="img/logo_fond_orange.png" alt="..."
-										class="img-circle ">
-								</div>
-								<div class="col-xs-10 col-md-10 centered">
-									<h2>Vente des vêtements</h2>
-
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-								</div>
-
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="container-fluid">
-							<div class="row block">
-								<div class="col-xs-2 col-md-2">
-									<img src="img/logo_fond_orange.png" alt="..."
-										class="img-circle ">
-								</div>
-								<div class="col-xs-10 col-md-10 centered">
-									<h2>Cloture du contrat</h2>
-
-									Lorem Ipsum is simply dummy text of the printing and
-									typesetting industry. Lorem Ipsum has been the industry's
-									standard dummy text ever since the 1500s, when an unknown
-									printer took a galley of type and scrambled it to make a type
-									specimen book. It has survived not only five centuries, but
-									also the leap into electronic typesetting, remaining
-									essentially unchanged. It was popularised in the 1960s with
-								</div>
-
-							</div>
-						</div>
-					</li>
+					</div>
 
 
-				</ul>
-
-
+				</div>
 			</div>
 		</div>
 	</div>
+
 	<footer id="footer">
 		<div class="container share-section">
 			<a
@@ -279,8 +340,21 @@
 		</div>
 	</footer>
 	<script type='text/javascript' src="js/jquery-1.11.0.min.js"></script>
-
-
 	<script type='text/javascript' src="js/bootstrap.js"></script>
+
+	<script type="text/javascript">
+		$('#collapseOne').on(
+				'show.bs.collapse',
+				function() {
+					$('#panel-heading-dressing-1').removeClass(
+							'panel-heading-border-bottom')
+				});
+		$('#collapseOne').on(
+				'hide.bs.collapse',
+				function() {
+					$('#panel-heading-dressing-1').addClass(
+							'panel-heading-border-bottom')
+				});
+	</script>
 </body>
 </html>
