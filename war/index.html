@@ -8,14 +8,14 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1">
 <!-- 	For Facebook -->
-<meta property="og:title" content="Le Dressing de Marie-Jeanne test " />
+<meta property="og:title" content="Le Dressing de Marie-Jeanne" />
 <meta property="og:description"
 	content="Venez faire de bonnes affaires au Dressing de Marie-Jeanne" />
 <meta property="og:site_name" content="Le Dressing de Marie-Jeanne" />
 <meta property="og:url"
 	content="http://2-dot-le-dressing-de-mariejeanne.appspot.com/" />
 <meta property="og:image"
-	content="http://2-dot-le-dressing-de-mariejeanne.appspot.com/img/bg.jpg" />
+	content="http://le-dressing-de-mariejeanne.appspot.com/img/logo/logo_fond_orange.png" />
 <!-- 	<meta property="fb:app_id" content="LeDressingDeMarieJeanneDevineau" /> -->
 <meta property="og:locale" content="fr_FR" />
 <!-- 	<meta property="article:author" content="" /> -->
@@ -26,7 +26,7 @@
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 <link href="css/le-dressing-MJ.css" type="text/css" rel="stylesheet">
-<link rel="icon" type="image/png" href="img/favicon-dressing.png">
+<link rel="icon" type="image/png" href="img/logo/favicon-dressing.png">
 
 <script src="https://apis.google.com/js/plusone.js"></script>
 <body>
@@ -54,7 +54,7 @@
 						class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="../"> <img id="logo-navbar"
-					src="img/logo_transparent.png" /></a>
+					src="img/logo/logo_transparent.png" /></a>
 
 			</div>
 			<div class="navbar-collapse collapse" id="navbar-main">
@@ -65,12 +65,6 @@
 					<li><a href="contacts.html">Contacts</a></li>
 				</ul>
 
-				<ul class="nav navbar-nav navbar-right josefin-sans">
-					<li></li>
-					<li><a href="http://facebook.com" target="_blank">Notre
-							page Fb</a></li>
-
-				</ul>
 			</div>
 
 		</div>
@@ -119,7 +113,7 @@
 	<div class="container welcome-message">
 
 		<h2 class="sail">Dépôt-Vente de Vêtements et Accessoires pour
-			Femme.</h2>
+			Femmes.</h2>
 
 	</div>
 
@@ -132,10 +126,10 @@
 				src="https://www.gstatic.com/images/icons/gplus-64.png"
 				alt="Share on Google+" /></a> <a
 				href="mailto:le.dressing.de.mariejeanne@gmail.com?subject=Le Dressing de Marie-Jeanne, Dépôt-Vente de Vêtements et Accessoires pour Femmes&body=Bonjour, je t'invite à découvrir le Dressing de Marie-Jeanne à l'adresse suivante le-dressing-de-mariejeanne.appspot.com."
-				target="_blank"> <img src="img/email_icon.png"
+				target="_blank"> <img src="img/social_network/email_icon.png"
 				alt="Icone de Facebook" /></a> <a
 				href="https://www.facebook.com/sharer/sharer.php?u=http://2-dot-le-dressing-de-mariejeanne.appspot.com"
-				target="_blank"> <img src="img/Facebook_icon.svg"
+				target="_blank"> <img src="img/social_network/Facebook_icon.svg"
 				alt="Icone de Facebook" /></a>
 		</div>
 	</footer>
@@ -148,7 +142,17 @@
 
 	<script type='text/javascript'>
 		$(document).ready(function() {
+			var OSName="Unknown OS";
+			if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+			if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+			if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
+			if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+			if(OSName=="MacOS"){
+// 				$('body').css('background-color','#E5C9A7');
+			}
+
 		});
+		
 		$('#carousel-home-page').carousel({
 			  interval: 5000
 			})

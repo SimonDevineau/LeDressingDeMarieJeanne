@@ -1,7 +1,12 @@
 /* Colors */
 /* grey:#777 */
-/* lin: E5C9A7 */
-/* orange: EEAC5C */
+/* lin Mac: E5C9A7 */
+/* orange Mac : EEAC5C */
+/*orange Mac for the font: FF9310*/
+/* Windows */
+/* lin Mac: F5C869 */
+/* orange Mac : FFA441 */
+/*orange Mac for the font: FF9310*/
 @font-face {
 	font-family: Josefin-Sans;
 	src: url(../fonts/Josefin-Sans/JosefinSans-Regular.ttf);
@@ -10,6 +15,11 @@
 @font-face {
 	font-family: sail;
 	src: url(../fonts/sail/Sail-Regular.otf);
+}
+
+@font-face {
+	font-family: JosefinSans-Bold;
+	src: url(../fonts/Josefin-Sans/JosefinSans-Bold.ttf);
 }
 
 html {
@@ -21,25 +31,67 @@ body {
 	color: #777;
 	height: 100%;
 	font-family: Josefin-Sans;
+	font-size: 20px;
+}
+
+@media (-moz-os-version:windows-xp), (-moz-os-version:windows-vista), (-moz-os-version:windows-win7), (-moz-os-version:windows-win8) {
+	body {
+		background-color: #F5C869;
+	}
 }
 
 .josefin-sans {
 	font-family: Josefin-Sans;
 }
 
+.josefin-sans-bold {
+	font-family: JosefinSans-Bold;
+}
+
 .sail {
 	font-family: sail;
 }
-
+/* sidebar */
 .bs-docs-sidebar a {
-	color: #EEAC5C;
-	font-size: 16px;
+	color: #F8A137;
+	font-size: 20px;
 
 	/* 	border: solid thin #777; */
 }
 
-.link-sidebar :hover {
-	background-color: #777 !important;
+.link-sidebar:hover {
+	background-color: rgba(0, 0, 0, 0) !important;
+	color: #777;
+}
+
+.affix-top,.affix {
+	position: static;
+}
+
+@media ( min-width : 775px) {
+	.customized-sidenav.affix-top,#collection-sidenavbar.affix-top {
+		position: static;
+	}
+	.customized-sidenav.affix,#collection-sidenavbar.affix-top {
+		position: fixed;
+	}
+}
+
+/* Collapse */
+.panel,.panel-default>.panel-heading {
+	background-color: rgba(214, 202, 187, 0.26);
+	border: none;
+}
+
+.panel-default {
+	border-color: #777;
+	/* 	border-color: rgba(0, 0, 0, 0); */
+}
+
+.panel-title a {
+	font-size: 22px;
+	color: #777;
+	/* 	font-style: oblique;*/
 }
 /* Css for the navbar */
 #orange-navbar {
@@ -55,6 +107,8 @@ body {
 
 #navbar-main {
 	margin-top: 30px;
+	/* 	Center the navbar */
+	margin-left: 20%;
 }
 
 @media ( max-width : 768px) {
@@ -101,7 +155,7 @@ body {
 
 .welcome-message {
 	text-align: center;
-	color: #EEAC5C;
+	color: rgba(235, 137, 19, 0.79) !important;
 	/* 	color: #FDA438; */
 }
 
@@ -159,4 +213,33 @@ body {
 
 .video-container {
 	margin-bottom: 3%;
+}
+
+/* § Comment ca marche */
+.panel-heading-border-bottom {
+	border-bottom: solid thin #777 !important;
+}
+
+.panel-body-dressing {
+	border-top: none !important;
+}
+
+#panel-body-dressing-1 {
+	border-bottom: solid thin #777;
+}
+
+.panel-title a {
+	text-decoration: none;
+}
+
+.panel-title>a:hover {
+	color: #FF9310;
+}
+
+.dressing-section {
+	margin-bottom: 8%;
+}
+
+#dressing-presentation {
+	font-size: 20px;
 }
