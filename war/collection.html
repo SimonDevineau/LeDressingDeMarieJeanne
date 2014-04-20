@@ -3,14 +3,19 @@
 <html lang="fr">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>Le Dressing de Marie-Jeanne</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>La collection de vêtements et accessoires du Dressing par Marie-Jeanne Devineau</title>
+<meta name="description"
+	content="Chaque semaine, Marie-Jeanne Devineau vous fait une sélection de ses plus belles pièces parmis la collection du dépôt-vente. 
+	Vous pourrez y trouver des robes, jupes, chemisiers, manteaux, pantalons, chaussures etc. 
+	Vous pouvez trouver cette collection sur Facebook à https://www.facebook.com/LeDressingDeMarieJeanne">
+<meta name="
+	viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!-- 	For Facebook -->
-<meta property="og:title" content="Le Dressing de Marie-Jeanne test " />
+<meta property="og:title" content="Le Dressing de Marie-Jeanne" />
 <meta property="og:description" content="Venez faire de bonnes affaires au Dressing de Marie-Jeanne" />
 <meta property="og:site_name" content="Le Dressing de Marie-Jeanne" />
-<meta property="og:url" content="http://2-dot-le-dressing-de-mariejeanne.appspot.com/" />
-<meta property="og:image" content="http://2-dot-le-dressing-de-mariejeanne.appspot.com/img/logo/logo_fond_orange.png" />
+<meta property="og:url" content="http://le-dressing-de-mariejeanne.appspot.com/" />
+<meta property="og:image" content="http://le-dressing-de-mariejeanne.appspot.com/img/logo/logo_fond_orange.png" />
 <!-- 	<meta property="fb:app_id" content="LeDressingDeMarieJeanneDevineau" /> -->
 <meta property="og:locale" content="fr_FR" />
 <!-- 	<meta property="article:author" content="" /> -->
@@ -21,6 +26,8 @@
 <link href="css/le-dressing-MJ.css" type="text/css" rel="stylesheet">
 <link rel="icon" type="image/png" href="img/logo/favicon-dressing.png">
 <script src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript' src="js/jquery-1.11.0.min.js"></script>
+</head>
 <body>
 	<!-- Include the SDK Javascript of Facebook -->
 	<div id="fb-root"></div>
@@ -42,7 +49,7 @@
 				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="../"> <img id="logo-navbar" src="img/logo/logo_transparent.png" /></a>
+				<a class="navbar-brand" href="../"> <img id="logo-navbar" src="img/logo/logo_transparent.png" alt="Logo du dépôt-vente, Le Dressing de Marie-Jeanne"/></a>
 			</div>
 			<div class="navbar-collapse collapse" id="navbar-main">
 				<ul class="nav navbar-nav josefin-sans">
@@ -70,7 +77,8 @@
 						<li><a href="#Pulls" class="link-sidebar">Pulls</a></li>
 						<li><a href="#Pantalons" class="link-sidebar">Pantalons</a></li>
 						<li><a href="#Ensembles" class="link-sidebar">Ensembles</a></li>
-						<li><a href="#Manteaux" class="link-sidebar">Manteaux <br/>& Vestes</a></li>
+						<li><a href="#Manteaux" class="link-sidebar">Manteaux <br />& Vestes
+						</a></li>
 						<!-- 						<li><a href="#Autres" class="link-sidebar">Autres</a></li> -->
 						<li><a class="back-to-top link-sidebar" href="#top"> Haut de page </a></li>
 					</ul>
@@ -594,17 +602,34 @@
 		</div>
 	</div>
 	<footer id="footer">
-		<div class="container share-section">
-			<a href="https://plus.google.com/share?url={http://2-dot-le-dressing-de-mariejeanne.appspot.com/}"
-				onclick="javascript:window.open(this.href,
-  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img
-				src="https://www.gstatic.com/images/icons/gplus-64.png" alt="Share on Google+" /></a> <a
+		<div class="container social-network-section">
+			<!--Google + -->
+			<a href="https://plus.google.com/116441293982459630995/about" target="_blank"> <img src="https://www.gstatic.com/images/icons/gplus-64.png" alt="Share on Google+" /></a>
+			<!--Mail -->
+			<a
 				href="mailto:le.dressing.de.mariejeanne@gmail.com?subject=Le Dressing de Marie-Jeanne, Dépôt-Vente de Vêtements et Accessoires pour Femmes&body=Bonjour, je t'invite à découvrir le Dressing de Marie-Jeanne à l'adresse suivante le-dressing-de-mariejeanne.appspot.com."
-				target="_blank"> <img src="img/social_network/email_icon.png" alt="Icone de Facebook" /></a> <a
-				href="https://www.facebook.com/sharer/sharer.php?u=http://2-dot-le-dressing-de-mariejeanne.appspot.com" target="_blank"> <img src="img/social_network/Facebook_icon.svg" alt="Icone de Facebook" /></a>
+				target="_blank"> <img src="img/social_network/email_icon.png" alt="Icone email" /></a>
+			<!-- Facebook -->
+			<a href="https://www.facebook.com/LeDressingDeMarieJeanne" target="_blank"> <img src="img/social_network/Facebook_icon.svg" alt="Icone de Facebook" /></a>
 		</div>
 	</footer>
 	<script type='text/javascript' src="js/jquery-1.11.0.min.js"></script>
 	<script type='text/javascript' src="js/bootstrap.js"></script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-50005315-1', 'le-dressing-de-mariejeanne.appspot.com');
+		ga('send', 'pageview');
+	</script>
 </body>
 </html>

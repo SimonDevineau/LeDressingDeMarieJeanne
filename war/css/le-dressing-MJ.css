@@ -34,12 +34,14 @@ body {
 	font-size: 20px;
 }
 
-@media (-moz-os-version:windows-xp), (-moz-os-version:windows-vista), (-moz-os-version:windows-win7), (-moz-os-version:windows-win8) {
-	body {
-		background-color: #F5C869;
-	}
-}
-
+/* @media ( -moz-os-version :windows-xp) , ( -moz-os-version :windows-vista) , ( -moz-os-version :windows-win7) , ( -moz-os-version :windows-win8) { */
+/* 	body { */
+/* 		background-color: black; */
+/* 	} */
+/* 	#orange-navbar { */
+/* 		background-color: black; */
+/* 	} */
+/* } */
 .josefin-sans {
 	font-family: Josefin-Sans;
 }
@@ -128,12 +130,12 @@ body {
 }
 
 /* Footer  */
-.share-section {
+.social-network-section {
 	margin-top: 3%;
 	text-align: center;
 }
 
-.share-section img {
+.social-network-section img {
 	height: 40px;
 }
 
@@ -242,4 +244,30 @@ body {
 
 #dressing-presentation {
 	font-size: 20px;
+}
+
+/* Contacts Page */
+#share-section {
+	text-align: center;
+}
+
+#share-section img {
+	vertical-align: bottom;
+}
+
+.icon-social-network {
+	width: 20px;
+}
+
+#___plus_0 {
+	vertical-align: bottom !important;
+}
+
+#contacts-information-box {
+	margin-bottom: 50px;
+}
+
+#yelp-biz-badge-plain-QoWDX88-GVaXzrune8ZX7A img {
+	height: 20px !important;
+	max-width: 60px !important;
 }
