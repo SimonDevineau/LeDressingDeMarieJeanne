@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 jarsExcludedFromWebInfLib=
+lastWarOutDir=/Users/simondevineau/Sites/LeDressingDeMarieJeanne/target/ledressingdemj-0.0.1
 launchConfigExternalUrlPrefix=
-warSrcDir=war
-warSrcDirIsOutput=true
+warSrcDir=target/ledressingdemj-0.0.1
+warSrcDirIsOutput=false
