@@ -1,0 +1,299 @@
+/* Colors */
+/* grey:#777 */
+/* lin Mac: E5C9A7 */
+/* orange Mac : EEAC5C */
+/*orange Mac for the font: FF9310*/
+/* Windows */
+/* lin Mac: F5C869 */
+/* orange Mac : FFA441 */
+/*orange Mac for the font: FF9310*/
+@font-face {
+	font-family: Josefin-Sans;
+	src: url(../fonts/Josefin-Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: sail;
+	src: url(../fonts/sail/Sail-Regular.otf);
+}
+
+@font-face {
+	font-family: JosefinSans-Bold;
+	src: url(../fonts/Josefin-Sans/JosefinSans-Bold.ttf);
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #E5C9A7;
+	color: #777;
+	height: 100%;
+	font-family: Josefin-Sans;
+	font-size: 20px;
+}
+
+/* @media ( -moz-os-version :windows-xp) , ( -moz-os-version :windows-vista) , ( -moz-os-version :windows-win7) , ( -moz-os-version :windows-win8) { */
+/* 	body { */
+/* 		background-color: black; */
+/* 	} */
+/* 	#orange-navbar { */
+/* 		background-color: black; */
+/* 	} */
+/* } */
+.josefin-sans {
+	font-family: Josefin-Sans;
+}
+
+.josefin-sans-bold {
+	font-family: JosefinSans-Bold;
+}
+
+.sail {
+	font-family: sail;
+}
+/* sidebar */
+.bs-docs-sidebar a {
+	color: #F8A137;
+	font-size: 20px;
+
+	/* 	border: solid thin #777; */
+}
+
+.link-sidebar:hover {
+	background-color: rgba(0, 0, 0, 0) !important;
+	color: #777;
+}
+
+.affix-top,.affix {
+	position: static;
+}
+
+@media ( min-width : 775px) {
+	.customized-sidenav.affix-top,#collection-sidenavbar.affix-top {
+		position: static;
+	}
+	.customized-sidenav.affix,#collection-sidenavbar.affix-top {
+		position: fixed;
+	}
+}
+
+/* Collapse */
+.panel,.panel-default>.panel-heading {
+	background-color: rgba(214, 202, 187, 0.26);
+	border: none;
+}
+
+.panel-default {
+	border-color: #777;
+	/* 	border-color: rgba(0, 0, 0, 0); */
+}
+
+.panel-title a {
+	font-size: 22px;
+	color: #777;
+	/* 	font-style: oblique;*/
+}
+/* Css for the navbar */
+#orange-navbar {
+	background-color: #EEAC5C;
+	min-height: 110px;
+	font-size: 22px;
+}
+
+#logo-navbar {
+	height: 100px;
+	max-height: 100px;
+}
+
+#navbar-main {
+	margin-top: 30px;
+	/* 	Center the navbar */
+	margin-left: 20%;
+}
+
+@media ( max-width : 768px) {
+	#navbar-main {
+		margin-top: 60px;
+	}
+}
+
+.navbar-brand {
+	padding-top: 0px;
+}
+
+@media ( min-width : 768px) {
+	.navbar-nav.navbar-right:last-child {
+		margin-right: -55px;
+	}
+}
+
+/* Footer  */
+.social-network-section {
+	margin-top: 3%;
+	text-align: center;
+}
+
+.social-network-section img {
+	height: 40px;
+}
+
+#footer {
+	bottom: 0;
+	margin-bottom: 10px;
+	width: 100%;
+}
+/* Temp modification */
+/* @media ( min-height : 985px) { */
+/* 	#footer { */
+/* 		position: fixed; */
+/* 	} */
+/* } */
+/* Home page  */
+#main-title {
+	margin-bottom: 2%;
+}
+
+.welcome-message {
+	text-align: center;
+	color: rgba(235, 137, 19, 0.79) !important;
+	/* 	color: #FDA438; */
+}
+
+/* Collection page  */
+#items-list-container {
+	margin-top: 2%;
+}
+
+.cloth-description {
+	height: 40px;
+	max-height: 40px;
+	font-size: 14px;
+	overflow: scroll;
+}
+
+.brand-cloth {
+	white-space: nowrap;
+	overflow: scroll;
+}
+/* Dressing page */
+.depot-process {
+	list-style: none;
+}
+
+.depot-process li {
+	margin-bottom: 15px;
+}
+
+.depot-process img {
+	width: 100%;
+	margin-right: 20px;
+}
+
+.depot-process .img-right {
+	float: right;
+	margin-left: 20px;
+}
+
+.depot-process p {
+	display: inline;
+}
+
+.text-toped {
+	top: 30px;
+}
+
+#links{
+	text-align: center;
+}
+#links .img-h {
+	width: 230px;
+	height: 150px;
+	margin-bottom: 4px;
+}
+
+#links .img-v {
+	width: 100px;
+	height: 150px;
+	margin-bottom: 4px;
+}
+/* This parent can be any width and height */
+.block {
+	
+}
+
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.video-container {
+	margin-bottom: 3%;
+}
+
+/* § Comment ca marche */
+.panel-heading-border-bottom {
+	border-bottom: solid thin #777 !important;
+}
+
+.panel-body-dressing {
+	border-top: none !important;
+}
+
+#panel-body-dressing-1 {
+	border-bottom: solid thin #777;
+}
+
+.panel-title a {
+	text-decoration: none;
+}
+
+.panel-title>a:hover {
+	color: #FF9310;
+}
+
+.dressing-section {
+	margin-bottom: 8%;
+}
+
+#dressing-presentation {
+	font-size: 20px;
+}
+
+/* Contacts Page */
+#share-section {
+	text-align: center;
+}
+
+#share-section img {
+	vertical-align: bottom;
+}
+
+.icon-social-network {
+	width: 20px;
+}
+
+#___plus_0 {
+	vertical-align: bottom !important;
+}
+
+#contacts-information-box {
+	margin-bottom: 50px;
+}
+
+#yelp-biz-badge-plain-QoWDX88-GVaXzrune8ZX7A img {
+	height: 20px !important;
+	max-width: 60px !important;
+}
