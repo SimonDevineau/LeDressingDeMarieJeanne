@@ -29,7 +29,8 @@
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 <link href="../css/le-dressing-MJ.css" type="text/css" rel="stylesheet">
-<link rel="icon" type="image/png" href="../img/logo/favicon-dressing.png">
+<link rel="icon" type="image/png"
+	href="../img/logo/favicon-dressing.png">
 <script src="https://apis.google.com/js/plusone.js"></script>
 <script type='text/javascript' src="../js/jquery-1.11.0.min.js"></script>
 </head>
@@ -64,13 +65,26 @@
 				<ul class="nav navbar-nav josefin-sans">
 					<li><a href="../index.html">Accueil</a></li>
 					<li><a href="../dressing.html">Le Dressing</a></li>
-					<li><a href="robes.html">La Collection</a></li>
-					<li><a href="../contacts.html">Contacts</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">La Collection <span
+							class="caret"></span>
+					</a>
+						<ul class="dropdown-menu">
+							<li><a href="robes.html" class="link-sidebar">Robes</a></li>
+							<li><a href="jupes.html" class="link-sidebar">Jupes</a></li>
+							<li><a href="chemisiers.html" class="link-sidebar">Chemisiers</a></li>
+							<li><a href="pulls.html" class="link-sidebar">Pulls &
+									Gilets</a></li>
+							<li><a href="pantalons.html" class="link-sidebar">Pantalons</a></li>
+							<li><a href="ensembles.html" class="link-sidebar">Ensembles</a></li>
+							<li><a href="chaussures.html" class="link-sidebar">Chaussures
+							</a></li>
+							<li><a href="sacs.html" class="link-sidebar">Sacs</a></li>
+
+							
+						</ul></li>
+					<li><a href="contacts.html">Contacts</a></li>
 				</ul>
-				<!-- 				<ul class="nav navbar-nav navbar-right josefin-sans"> -->
-				<!-- 					<li></li> -->
-				<!-- 					<li><a href="http://facebook.com" target="_blank">Notre page Fb</a></li> -->
-				<!-- 				</ul> -->
 			</div>
 		</div>
 	</div>
@@ -84,12 +98,14 @@
 						<li><a href="robes.html" class="link-sidebar">Robes</a></li>
 						<li><a href="jupes.html" class="link-sidebar">Jupes</a></li>
 						<li><a href="chemisiers.html" class="link-sidebar">Chemisiers</a></li>
-						<li><a href="pulls.html" class="link-sidebar">Pulls</a></li>
+						<li><a href="pulls.html" class="link-sidebar">Pulls &
+								Gilets</a></li>
+						<li><a href="vestes.html" class="link-sidebar">Vestes</a></li>
 						<li><a href="pantalons.html" class="link-sidebar">Pantalons</a></li>
 						<li><a href="ensembles.html" class="link-sidebar">Ensembles</a></li>
-						<li><a href="manteaux.html" class="link-sidebar">Manteaux <br />&
-								Vestes
+						<li><a href="chaussures.html" class="link-sidebar">Chaussures
 						</a></li>
+						<li><a href="sacs.html" class="link-sidebar">Sacs </a></li>
 						<!-- 						<li><a href="#Autres" class="link-sidebar">Autres</a></li> -->
 						<li><a class="back-to-top link-sidebar" href="#top"> Haut
 								de page </a></li>
@@ -542,19 +558,6 @@
 								<p class="cloth-description">100% coton</p>
 								<h5 class="color-cloth">
 									Gris clair<span class="pull-right size-cloth">38</span>
-								</h5>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-lg-4 col-md-4">
-						<div class="thumbnail">
-							<img src="../img/vetements/stock-actuel-thumbnails/138.jpg" />
-							<div class="caption">
-								<h4 class="pull-right">16€</h4>
-								<h4 class="brand-cloth">Mamatayoo</h4>
-								<p class="cloth-description">90% Viscose et 10% Elastane</p>
-								<h5 class="color-cloth">
-									Noir<span class="pull-right size-cloth">M</span>
 								</h5>
 							</div>
 						</div>
@@ -1115,12 +1118,13 @@
 				alt="Icone email" /></a>
 			<!-- Facebook -->
 			<a href="https://www.facebook.com/LeDressingDeMarieJeanne"
-				target="_blank"> <img src="../img/social_network/Facebook_icon.svg"
+				target="_blank"> <img
+				src="../img/social_network/Facebook_icon.svg"
 				alt="Icone de Facebook" /></a>
 		</div>
 	</footer>
-	<script type='text/javascript' src="js/jquery-1.11.0.min.js"></script>
-	<script type='text/javascript' src="js/bootstrap.js"></script>
+	<script type='text/javascript' src="../js/jquery-1.11.0.min.js"></script>
+	<script type='text/javascript' src="../js/bootstrap.js"></script>
 	<script>
 		(function(i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r;

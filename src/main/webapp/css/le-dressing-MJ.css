@@ -53,6 +53,24 @@ body {
 .sail {
 	font-family: sail;
 }
+
+/* Bootstrap */
+.navbar-nav>li>.dropdown-menu {
+	border-radius: 4px;
+}
+
+.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus
+	{
+	border-radius: 2px;
+}
+
+.dropdown-menu>li:hover {
+	background-color: #e7e7e7;
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: #e7e7e7;
+}
 /* sidebar */
 .bs-docs-sidebar a {
 	color: #F8A137;
@@ -170,12 +188,14 @@ body {
 	height: 40px;
 	max-height: 40px;
 	font-size: 14px;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .brand-cloth {
 	white-space: nowrap;
-	overflow: scroll;
+	overflow: auto;
+	height: 24px;
+	max-height: 24px;
 }
 /* Dressing page */
 .depot-process {
@@ -204,11 +224,12 @@ body {
 	top: 30px;
 }
 
-#links{
+#links {
 	text-align: center;
 }
+
 #links .img-h {
-	width: 230px;
+	width: 200px;
 	height: 150px;
 	margin-bottom: 4px;
 }
