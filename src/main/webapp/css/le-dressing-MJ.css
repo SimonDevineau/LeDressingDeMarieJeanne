@@ -97,6 +97,11 @@ body {
 	}
 }
 
+.nav>li>a {
+	position: relative;
+	display: block;
+	padding: 7px 15px;
+}
 /* Collapse */
 .panel,.panel-default>.panel-heading {
 	background-color: rgba(214, 202, 187, 0.26);
