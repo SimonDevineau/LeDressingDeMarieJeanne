@@ -1,6 +1,2 @@
-/.gwt/
+/bin/
 /target/
-/test-classes/
-/test/
-**/.picasaoriginals/**
-**/.picasa.ini
