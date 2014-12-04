@@ -1,0 +1,772 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Les Jupes du Dressing de Marie-Jeanne Devineau</title>
+
+<meta name="description"
+	content="Voici une sélection de jupes de la collection du Dresing de Marie-Jeanne. Vous pouvez retrouver ce dépôt-vente de vêtements pour femmes au 118 rue de la clémentine, à Talmont Saint Hikaire, à proximité des Sables d'Olonne.">
+
+<meta name="
+	viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- 	For Facebook -->
+<meta property="og:title" content="Le Dressing de Marie-Jeanne" />
+<meta property="og:description"
+	content="Venez faire de bonnes affaires au Dressing de Marie-Jeanne" />
+<meta property="og:site_name" content="Le Dressing de Marie-Jeanne" />
+<meta property="og:url"
+	content="http://le-dressing-de-mariejeanne.appspot.com/" />
+<meta property="og:image"
+	content="http://le-dressing-de-mariejeanne.appspot.com/../../img/logo/logo_fond_orange.png" />
+<!-- 	<meta property="fb:app_id" content="LeDressingDeMarieJeanneDevineau" /> -->
+<meta property="og:locale" content="fr_FR" />
+<!-- 	<meta property="article:author" content="" /> -->
+<link href="../../css/bootstrap.css" rel="stylesheet">
+<!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+<link href="../../css/le-dressing-MJ.css" type="text/css"
+	rel="stylesheet">
+<link rel="icon" type="image/png"
+	href="../../img/logo/favicon-dressing.png">
+<script src="https://apis.google.com/js/plusone.js"></script>
+</head>
+<body>
+	<!-- Include the SDK Javascript of Facebook -->
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&appId=***appId***";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<!-- navbar-fixed-top -->
+	<div class="navbar navbar-default " id="orange-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse"
+					data-target="#navbar-main">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="../"> <img id="logo-navbar"
+					src="../../img/logo/logo_transparent.png"
+					alt="Logo du dépôt-vente, Le Dressing de Marie-Jeanne" /></a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar-main">
+				<ul class="nav navbar-nav josefin-sans">
+					<li><a href="../../index.html">Accueil</a></li>
+					<li><a href="../../dressing.html">Le Dressing</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">La Collection <span
+							class="caret"></span>
+					</a>
+						<ul class="dropdown-menu">
+							<li><a href="robes.html" class="link-sidebar">Robes</a></li>
+							<li><a href="jupes.html" class="link-sidebar">Jupes</a></li>
+							<li><a href="chemisiers.html" class="link-sidebar">Chemisiers</a></li>
+							<li><a href="pulls.html" class="link-sidebar">Pulls &
+									Gilets</a></li>
+							<li><a href="pantalons.html" class="link-sidebar">Pantalons</a></li>
+							<li><a href="ensembles.html" class="link-sidebar">Ensembles</a></li>
+
+							<li><a href="manteaux.html" class="link-sidebar">Manteaux
+									& Impers</a></li>
+							<li><a href="vestes.html" class="link-sidebar">Vestes &
+									Blousons</a></li>
+							<li><a href="chaussures.html" class="link-sidebar">Chaussures
+							</a></li>
+							<li><a href="sacs.html" class="link-sidebar">Sacs</a></li>
+							<li><a href="foulards.html" class="link-sidebar">Foulards</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="archives.html">Archives<span
+							class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="../printemps-ete-2014/robes.html">Printemps/Été
+									2014</a></li>
+
+						</ul></li>
+					<li><a href="../../contacts.html">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 	End of the navbar section -->
+	<div class="container bs-doc-container">
+		<div class="row">
+			<div class="col-sm-2 col-md-2">
+				<div class="bs-docs-sidebar hidden-print affix customized-sidenav"
+					role="complementary">
+					<ul class="nav bs-docs-sidenav">
+						<li><a href="robes.html" class="link-sidebar">Robes</a></li>
+						<li><a href="jupes.html" class="link-sidebar">Jupes</a></li>
+						<li><a href="chemisiers.html" class="link-sidebar">Chemisiers</a></li>
+						<li><a href="pulls.html" class="link-sidebar">Pulls &
+								Gilets</a></li>
+						<li><a href="pantalons.html" class="link-sidebar">Pantalons</a></li>
+						<li><a href="ensembles.html" class="link-sidebar">Ensembles</a></li>
+
+						<li><a href="manteaux.html" class="link-sidebar">Manteaux
+								& Impers</a></li>
+						<li><a href="vestes.html" class="link-sidebar">Vestes &
+								Blousons</a></li>
+						<li><a href="chaussures.html" class="link-sidebar">Chaussures
+						</a></li>
+						<li><a href="sacs.html" class="link-sidebar">Sacs</a></li>
+						<li><a href="foulards.html" class="link-sidebar">Foulards</a></li>
+						<li><a class="back-to-top link-sidebar" href="#top"> Haut
+								de page </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-10 col-md-10">
+				<div class="row vetements-container">
+					<h1 class="page-header">Jupes</h1>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/298.jpg'
+								alt='Jupe Camaieu Bleu Foncé taille 36 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Camaieu</h4>
+								<p class="cloth-description">100% Coton</p>
+								<h5 class="color-cloth">
+									Bleu Foncé<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/312.jpg'
+								alt='Jupe Jensen Jeans Foncé taille 38 à 10€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">10€</h4>
+								<h4 class="brand-cloth">Jensen</h4>
+								<p class="cloth-description">74% Coton 25% Polyester 1%
+									Spandex</p>
+								<h5 class="color-cloth">
+									Jeans Foncé<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/324.jpg'
+								alt='Jupe Noa Noa Noir taille S à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Noa Noa</h4>
+								<p class="cloth-description">60% Coton 40% Soie</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">S</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/333.jpg'
+								alt='Jupe Patrick Mendes Noir taille S à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">Patrick Mendes</h4>
+								<p class="cloth-description">90% polyester 10% polyurethane</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">S</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/340.jpg'
+								alt='Jupe Jus d' Orange Noir & Mordoré taille 36 à 15€ au
+								Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Jus d'Orange</h4>
+								<p class="cloth-description">85% Polyester 5% Elastane</p>
+								<h5 class="color-cloth">
+									Noir & Mordoré<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/345.jpg'
+								alt='Jupe  Esprit Carreaux Beige Marron taille 36 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Esprit</h4>
+								<p class="cloth-description">97 % Coton 3% Elastane</p>
+								<h5 class="color-cloth">
+									Carreaux Beige Marron<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/346.jpg'
+								alt='Jupe  Part Two Noir taille 36 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Part Two</h4>
+								<p class="cloth-description">93% Coton 7% Microfibre</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/350.jpg'
+								alt='Jupe Ikks Noir Marron taille 42 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Ikks</h4>
+								<p class="cloth-description">50% Polyester 50% Viscose IKKS</p>
+								<h5 class="color-cloth">
+									Noir Marron<span class="pull-right size-cloth">42</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/351.jpg'
+								alt='Jupe Beny Noir taille 44 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Beny</h4>
+								<p class="cloth-description">Beny 97% Coton 3% Lycra</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">44</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/360.jpg'
+								alt='Jupe Street One Gris taille 40 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Street One</h4>
+								<p class="cloth-description">Enjoy 63% Polyester 32% Rayon
+									5% Spardex</p>
+								<h5 class="color-cloth">
+									Gris<span class="pull-right size-cloth">40</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/362.jpg'
+								alt='Jupe  Rivière de Lune Noir Marron taille 38 à 30€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">30€</h4>
+								<h4 class="brand-cloth">Rivière de Lune</h4>
+								<p class="cloth-description">100% Lin</p>
+								<h5 class="color-cloth">
+									Noir Marron<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/370.jpg'
+								alt='Jupe  Mexx Marron taille 36 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Mexx</h4>
+								<p class="cloth-description">100% Coton</p>
+								<h5 class="color-cloth">
+									Marron<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/375.jpg'
+								alt='Jupe Ernest Prince De Galles Taupe taille 38 à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">Ernest</h4>
+								<p class="cloth-description">98% Coton 2% Elastane</p>
+								<h5 class="color-cloth">
+									Prince De Galles Taupe<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/378.jpg'
+								alt='Jupe Sans Marque Noir gris  taille 44 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Sans Marque</h4>
+								<p class="cloth-description">60% Viscose 30% Polyester 5%
+									Elastane</p>
+								<h5 class="color-cloth">
+									Noir gris <span class="pull-right size-cloth">44</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/385.jpg'
+								alt='Jupe Sans Marque Noir taille 38 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Sans Marque</h4>
+								<p class="cloth-description">100% Polyester</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/387.jpg'
+								alt='Jupe La Fée Marabouthée Parme à pois Corail taille 2 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">La Fée Marabouthée</h4>
+								<p class="cloth-description">Jersey de coton</p>
+								<h5 class="color-cloth">
+									Parme à pois Corail<span class="pull-right size-cloth">2</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/388.jpg'
+								alt='Jupe La Fée Maraboutée Gris Noir taille 1 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">La Fée Maraboutée</h4>
+								<p class="cloth-description">Visage imprimé sur le devant</p>
+								<h5 class="color-cloth">
+									Gris Noir<span class="pull-right size-cloth">1</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/395.jpg'
+								alt='Jupe Fabrication Française Taupe taille 38 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Fabrication Française</h4>
+								<p class="cloth-description">85% Laine 15% Polyester</p>
+								<h5 class="color-cloth">
+									Taupe<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/397.jpg'
+								alt='Jupe 123 Noir taille 40 à 12€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">12€</h4>
+								<h4 class="brand-cloth">123</h4>
+								<p class="cloth-description">100% Polyester</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">40</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/399.jpg'
+								alt='Jupe  Comptoir Du Cotonniers Noir taille 40 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Comptoir Du Cotonniers</h4>
+								<p class="cloth-description">Coton</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">40</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/400.jpg'
+								alt='Jupe La City Marron taille 40 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">La City</h4>
+								<p class="cloth-description">62% PVC 37% Coton</p>
+								<h5 class="color-cloth">
+									Marron<span class="pull-right size-cloth">40</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/414.jpg'
+								alt='Jupe Desigual Noir & Blanc taille 36 à 40€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">40€</h4>
+								<h4 class="brand-cloth">Desigual</h4>
+								<p class="cloth-description">65% Coton 35% Polyester</p>
+								<h5 class="color-cloth">
+									Noir & Blanc<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/420.jpg'
+								alt='Jupe Georges Rech Damier Noir & Blanc taille 38 à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">Georges Rech</h4>
+								<p class="cloth-description">Laine Polyester</p>
+								<h5 class="color-cloth">
+									Damier Noir & Blanc<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/434.jpg'
+								alt='Jupe Jacqueline Riu Noir  taille 42 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Jacqueline Riu</h4>
+								<p class="cloth-description">70% Polyester 30% Coton</p>
+								<h5 class="color-cloth">
+									Noir <span class="pull-right size-cloth">42</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/446.jpg'
+								alt='Jupe One Step Beige taille 38 à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">One Step</h4>
+								<p class="cloth-description">Coton</p>
+								<h5 class="color-cloth">
+									Beige<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/450.jpg'
+								alt='Jupe Ikks  Jeans Foncé taille 36 à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">Ikks</h4>
+								<p class="cloth-description">98% Coton 2% elastane</p>
+								<h5 class="color-cloth">
+									Jeans Foncé<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/455.jpg'
+								alt='Jupe  Fleur De Sel Noir gris taille 36 à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">Fleur De Sel</h4>
+								<p class="cloth-description">100% Soie</p>
+								<h5 class="color-cloth">
+									Noir gris<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/456.jpg'
+								alt='Jupe  Esprit Pois Blanc taille 36 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Esprit</h4>
+								<p class="cloth-description">100% polyester</p>
+								<h5 class="color-cloth">
+									Pois Blanc<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/462.jpg'
+								alt='Jupe Esprit Vert taille 36 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Esprit</h4>
+								<p class="cloth-description">100% Coton</p>
+								<h5 class="color-cloth">
+									Vert<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/464.jpg'
+								alt='Jupe Double One Noir taille XS à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Double One</h4>
+								<p class="cloth-description">64% Rayon 34% Polyester 2%
+									Spandex</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">XS</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/465.jpg'
+								alt='Jupe Chipie Beige Marron taille 36 à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">Chipie</h4>
+								<p class="cloth-description">100% Coton</p>
+								<h5 class="color-cloth">
+									Beige Marron<span class="pull-right size-cloth">36</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/468.jpg'
+								alt='Jupe Un Deux Trois  Noir  taille 38 à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">Un Deux Trois</h4>
+								<p class="cloth-description">53% polyester 43% Laine 4%
+									Elastane</p>
+								<h5 class="color-cloth">
+									Noir <span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/473.jpg'
+								alt='Jupe Street One Imprimé Moutarde taille 38 à 15€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">15€</h4>
+								<h4 class="brand-cloth">Street One</h4>
+								<p class="cloth-description">100% Polyester</p>
+								<h5 class="color-cloth">
+									Imprimé Moutarde<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/479.jpg'
+								alt='Jupe Un deux Trois  Marine taille 38 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Un deux Trois</h4>
+								<p class="cloth-description">98% Coton 2% Elastane</p>
+								<h5 class="color-cloth">
+									Marine<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/494.jpg'
+								alt='Jupe Anne Elisabeth Chevrons marron taille 38 à 30€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">30€</h4>
+								<h4 class="brand-cloth">Anne Elisabeth</h4>
+								<p class="cloth-description">97% Coton 3% Elasthane</p>
+								<h5 class="color-cloth">
+									Chevrons marron<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/497.jpg'
+								alt='Jupe Sans étiquette Grise taille 40 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Sans étiquette</h4>
+								<p class="cloth-description">Imprimé à pois</p>
+								<h5 class="color-cloth">
+									Grise<span class="pull-right size-cloth">40</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/532.jpg'
+								alt='Jupe Dixit Jean taille 38 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Dixit</h4>
+								<p class="cloth-description">100% Coton</p>
+								<h5 class="color-cloth">
+									Jean<span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/542.jpg'
+								alt='Jupe Curling Marron Beige  taille 38 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Curling</h4>
+								<p class="cloth-description">100% Laine</p>
+								<h5 class="color-cloth">
+									Marron Beige <span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/551.jpg'
+								alt='Jupe Desigual Gris taille 40 à 30€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">30€</h4>
+								<h4 class="brand-cloth">Desigual</h4>
+								<p class="cloth-description">Laine</p>
+								<h5 class="color-cloth">
+									Gris<span class="pull-right size-cloth">40</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/573.jpg'
+								alt='Jupe Helena Sorel Parme Gris taille 42 à 20€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">20€</h4>
+								<h4 class="brand-cloth">Helena Sorel</h4>
+								<p class="cloth-description">100% Soie</p>
+								<h5 class="color-cloth">
+									Parme Gris<span class="pull-right size-cloth">42</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/574.jpg'
+								alt='Jupe Sans Marque Noir taille 42 à 25€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">25€</h4>
+								<h4 class="brand-cloth">Sans Marque</h4>
+								<p class="cloth-description">Cuir</p>
+								<h5 class="color-cloth">
+									Noir<span class="pull-right size-cloth">42</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<div class="thumbnail">
+							<img src='../../img/vetements/automnehiver2014/581.jpg'
+								alt='Jupe IKKS Taupe Gris  taille 38 à 35€ au Dressing de Marie-Jeanne à Talmont' />
+							<div class="caption">
+								<h4 class="pull-right">35€</h4>
+								<h4 class="brand-cloth">IKKS</h4>
+								<p class="cloth-description">70% Laine 30% Polyester</p>
+								<h5 class="color-cloth">
+									Taupe Gris <span class="pull-right size-cloth">38</span>
+								</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="container social-network-section">
+			<!--Google + -->
+			<a href="https://plus.google.com/116441293982459630995/about"
+				target="_blank"> <img
+				src="https://www.gstatic.com/images/icons/gplus-64.png"
+				alt="Share on Google+" /></a>
+			<!--Mail -->
+			<a
+				href="mailto:le.dressing.de.mariejeanne@gmail.com?subject=Le Dressing de Marie-Jeanne, Dépôt-Vente de Vêtements et Accessoires pour Femmes&body=Bonjour, je t'invite à découvrir le Dressing de Marie-Jeanne à l'adresse suivante le-dressing-de-mariejeanne.appspot.com."
+				target="_blank"> <img
+				src="../../img/social_network/email_icon.png" alt="Icone email" /></a>
+			<!-- Facebook -->
+			<a href="https://www.facebook.com/LeDressingDeMarieJeanne"
+				target="_blank"> <img
+				src="../../img/social_network/Facebook_icon.svg"
+				alt="Icone de Facebook" /></a>
+		</div>
+	</footer>
+	<script type='text/javascript' src="../../js/jquery-1.11.0.min.js"></script>
+	<script type='text/javascript' src="../../js/bootstrap.js"></script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script',
+				'//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-50005315-1', 'le-dressing-de-mariejeanne.appspot.com');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>

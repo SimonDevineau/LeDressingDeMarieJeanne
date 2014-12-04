@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html >
+<!-- 	For Facebook -->
+<meta property="og:title" content="Le Dressing de Marie-Jeanne" />
+<meta property="og:description"
+	content="DÃ©pÃ´t-Vente de VÃªtements et Accessoires pour Femmes." />
+<meta property="og:site_name" content="Le Dressing de Marie-Jeanne" />
+<meta property="og:url"
+	content="http://le-dressing-de-mariejeanne.appspot.com" />
+<meta property="og:image"
+	content="http://le-dressing-de-mariejeanne.appspot.com/img/logo/logo_fond_orange.png" />
+<meta property="fb:app_id" content="LeDressingDeMarieJeanneDevineau" />
+<meta property="og:locale" content="fr_FR" />
+<!-- 	<meta property="article:author" content="" /> -->

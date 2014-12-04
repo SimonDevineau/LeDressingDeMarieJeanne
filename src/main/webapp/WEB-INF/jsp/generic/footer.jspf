@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<footer id="footer">
+	<div class="container social-network-section">
+<!-- 		<!--Google + --> -->
+<!-- 		<a href="https://plus.google.com/116441293982459630995/about" -->
+<!-- 			target="_blank"> <img -->
+<!-- 			src="https://www.gstatic.com/images/icons/gplus-64.png" -->
+<!-- 			alt="Partagez sur Google + le site du Dressing de Marie-Jeanne" /></a> -->
+<!-- 		<!--Mail --> -->
+<!-- 		<a -->
+<!-- 			href="mailto:le.dressing.de.mariejeanne@gmail.com?subject=Le Dressing de Marie-Jeanne, DÃ©pÃ´t-Vente de VÃªtements et Accessoires pour Femmes&body=Bonjour, je t'invite Ã  dÃ©couvrir le Dressing de Marie-Jeanne Ã  l'adresse suivante le-dressing-de-mariejeanne.appspot.com." -->
+<!-- 			target="_blank"> <img src="img/social_network/email_icon.png" -->
+<!-- 			alt="Envoyer un email Ã  Marie-Jeanne Devineau Ã  propos de son dÃ©pot-vente" /></a> -->
+<!-- 		<!-- Facebook --> -->
+<!-- 		<a href="https://www.facebook.com/LeDressingDeMarieJeanne" -->
+<!-- 			target="_blank"> <img itemprop="url" -->
+<!-- 			src="img/social_network/Facebook_icon.svg" -->
+<!-- 			alt="Lien Facebook vers la page du Dressing de Marie-Jeanne" /></a> -->
+	</div>
+</footer>
